@@ -4,10 +4,10 @@ Library     SeleniumLibrary
 
 *** Variables ***
 
-${URL}      https://www.te-palvelut.fi/
-${BROWSER}    chrome
-${Link}       Avoimet työpaikat  
-${INPUT_TEXT}    Etteplan Test Automation 
+${URL}              https://www.te-palvelut.fi/
+${BROWSER}          chrome
+${Link}            Avoimet työpaikat  
+${INPUT_TEXT}       Etteplan Test Automation 
 ${JOB_LINK}         https://candidate.hr-manager.net/ApplicationInit.aspx?cid=1522&ProjectId=148987&DepartmentId=18973&MediaId=5
   
 *** Test Cases ***
@@ -34,3 +34,4 @@ Test Automation Job Application
     Switch Window   MAIN
     Sleep             3s
     Close Browser
+
